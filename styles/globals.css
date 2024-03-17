@@ -1,0 +1,62 @@
+/*General style*/
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    padding-left: 280px;
+  }
+  html, body {
+    background-color: rgb(57, 135, 191);
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(57, 135, 191);
+  }
+  
+  /* Small devices*/
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+      background-color: rgb(57, 135, 191);
+    }
+  
+    body {
+      padding: 10px;
+    }
+  }
+  
+  /* Medium devices*/
+  @media only screen and (min-width: 768px) {
+    .container {
+      width: 80%;
+      padding: 15px;
+    }
+  }
+  
+  /* Large devices*/
+  @media only screen and (min-width: 992px) {
+    .container {
+      width: 70%;
+      padding: 20px;
+    }
+  }
+  
+  /*Extra large devices*/
+  @media only screen and (min-width: 1200px) {
+    .container {
+      width: 60%;
+    }
+  }
+  
+
+
